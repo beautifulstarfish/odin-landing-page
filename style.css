@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
@@ -14,14 +16,18 @@ body {
 }
 
 .header {
-    padding: 18px 240px;
+    padding: 18px 180px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-logo {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 800;
+}
+
+.hero {
+    padding: 120px 180px;
 }
 
 a,
@@ -42,8 +48,69 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
 img {
     width: 400px;
     height: 200px;
     object-fit: cover;
+}
+
+button,
+.action {
+    background: #3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.main,
+.quote {
+    color: #1F2937;
+}
+
+h2,
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.info {
+    max-width: 148px;
+    text-align: center;
+}
+
+.main-image {
+    height: 140px;
+    width: 140px;
+    border: 4px solid #3882F6;
+    border-radius: 15%;
+}
+
+.quote {
+    background: #E5E7EB;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.action {
+    margin: 80px 180px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
