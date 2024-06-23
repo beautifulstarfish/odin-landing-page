@@ -28,12 +28,20 @@ body {
 
 .hero {
     padding: 120px 180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 a,
-.hero-text {
+.hero-text,
+.action-subtext {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-text {
+    width: 35vw;
 }
 
 ul {
@@ -55,14 +63,31 @@ h1 {
 }
 
 img {
-    width: 400px;
-    height: 200px;
+    width: 35vw;
+    height: 35vh;
     object-fit: cover;
+}
+
+button {
+    padding: 8px 36px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 button,
 .action {
     background: #3882F6;
+}
+
+.hero-button {
+    border: none;
+}
+
+.action-button {
+    border: 2px solid #F9FAF8;
 }
 
 h2 {
@@ -77,6 +102,7 @@ h2 {
 
 h2,
 .info-container {
+    margin: 48px 180px;
     display: flex;
     justify-content: center;
     gap: 48px;
@@ -85,6 +111,7 @@ h2,
 
 .info {
     max-width: 148px;
+    padding-bottom: 48px;
     text-align: center;
 }
 
@@ -97,20 +124,40 @@ h2,
 
 .quote {
     background: #E5E7EB;
+    padding: 120px 276px;
 }
 
 .quote-text {
     font-style: italic;
     font-size: 36px;
     font-weight: 300;
+    padding-bottom: 24px;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+.quote-author,
+.action-title {
+    font-size: 24px;
+    font-weight: 800;
 }
 
 .action {
+    color:#F9FAF8;
     margin: 80px 180px;
+    padding: 48px 96px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 24px 0;
 }
